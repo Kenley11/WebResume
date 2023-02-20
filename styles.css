@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin-bottom: 20px;
+  font-family: space grotesk, sans-serif;
+}
+img {
+  border-radius: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.my-image {
+  text-align: center;
+}
+
+.my-details {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.prof-sum {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100px;
+  line-height: 1.5;
+}
+P {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.categories {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  background-color: #fffbeb;
+}
+
+.category-img {
+  height: 70px;
+  border-radius: 0;
+  /*box-shadow: 2px 2px 2px 2px gray;*/
+}
+
+a:hover {
+  transform: scale(0.9);
+  transition-delay: 30ms;
+}
+.icon-img {
+  text-align: center;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  border-radius: 0;
+  height: 70px;
+  margin-bottom: 100px;
+}
+
+.job-logo {
+  border-radius: 0;
+  height: 100px;
+}
+
+.jobs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.deloitte-container {
+  border-style: solid;
+  border-color: gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 2px 1px black;
+  height: 100px;
+}
+.deloitte-logo {
+  height: 120px;
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+.brightwing-container {
+  border-style: solid;
+  border-color: gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 2px 1px black;
+  height: 90px;
+}
+.brightwing-logo {
+  height: 65px;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.sfda-container {
+  border-style: solid;
+  border-color: gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 2px 1px black;
+  height: 90px;
+}
+.sfda-logo {
+  height: 60px;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.barry-container {
+  border-style: solid;
+  border-color: gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 2px 1px black;
+  height: 90px;
+  margin-bottom: 50px;
+}
+.barry-logo {
+  height: 70px;
+  border-radius: 0;
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+.deloiite-job-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  height: 520px;
+  width: 800px;
+  background-color: #f0fdf4;
+  box-shadow: 1px 1px 2px 1px black;
+}
+.deloitte-job-title {
+  margin-bottom: 450px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: white;
+}
+.deloitte-date-label {
+  margin-top: -450px;
+  margin-left: 20px;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  background-color: white;
+}
+.deloitte-job-bullets {
+  border-style: solid;
+  width: 700px;
+  height: fit-content;
+  margin: auto;
+  margin-top: -455px;
+  background-color: white;
+}
+
+.brightwing-job-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  height: 420px;
+  width: 800px;
+  background-color: #fffbeb;
+  box-shadow: 1px 1px 2px 1px black;
+}
+.brightwing-job-title {
+  margin-bottom: 450px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-top: 100px;
+  background-color: white;
+}
+.brightwing-date-label {
+  margin-top: -350px;
+  margin-left: 20px;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  background-color: white;
+}
+.brightwing-job-bullets {
+  border-style: solid;
+  width: 700px;
+  height: fit-content;
+  margin: auto;
+  margin-top: -355px;
+  background-color: white;
+}
+
+.sfda-job-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  height: 450px;
+  width: 800px;
+  background-color: #e0f2fe;
+  box-shadow: 1px 1px 2px 1px black;
+}
+.sfda-job-title {
+  margin-bottom: 450px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-top: 65px;
+  background-color: white;
+}
+.sfda-date-label {
+  margin-top: -385px;
+  margin-left: 20px;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  background-color: white;
+}
+.sfda-job-bullets {
+  border-style: solid;
+  width: 700px;
+  height: fit-content;
+  margin: auto;
+  margin-top: -390px;
+  background-color: white;
+}
+.barry-job-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  height: 300px;
+  width: 800px;
+  background-color: #fee2e2;
+  box-shadow: 1px 1px 2px 1px black;
+}
+.barry-job-title {
+  margin-bottom: 450px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-top: 200px;
+  background-color: white;
+}
+.barry-date-label {
+  margin-top: -250px;
+  margin-left: 20px;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  background-color: white;
+}
+.barry-job-bullets {
+  border-style: solid;
+  width: 700px;
+  height: fit-content;
+  margin: auto;
+  margin-top: -245px;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.certs-container {
+  border-style: solid;
+  height: 600px;
+  width: 700px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px 1px black;
+}
+
+.cert-1 {
+  border-style: solid;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-width: 1.5px;
+  height: 200px;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.aws-title {
+  margin-top: 130px;
+  margin-left: 60px;
+}
+.cert-2 {
+  border-style: solid;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-width: 1.5px;
+  height: 200px;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.mcsa-title {
+  margin-top: 110px;
+  margin-left: 60px;
+}
+.cert-3 {
+  border-width: 1.5px;
+  height: 200px;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.comptia-title {
+  margin-top: 75px;
+  margin-left: 60px;
+}
+.skills-container {
+  border-style: solid;
+  height: 720px;
+  width: 700px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px 1px black;
+}
+.skill {
+  border-style: solid;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-width: 1.5px;
+  height: 200px;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.skill-title {
+  margin-top: 130px;
+  margin-left: 60px;
+}
+.programming-languages {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.programming-logos {
+  height: 50px;
+  border-radius: 0px;
+  margin-left: 10px;
+}
+.projects-section {
+  text-align: center;
+  background-color: #f9f5e7;
+  margin: auto 100px;
+  border-radius: 20%;
+}
+.project-1 {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.project-3 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.web-resume-points {
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+}
+.scanner-points {
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+}
+.shopping-list-points {
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+}
+.school-details {
+  text-align: center;
+}
+.edu-section-img {
+  border-radius: 0;
+  padding-bottom: 30px;
+}
